@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "KT"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - chapter1.qmd
+      - chapter2.qmd
+      - chapter3.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+
+

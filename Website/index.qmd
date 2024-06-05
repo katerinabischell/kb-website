@@ -1,0 +1,48 @@
+---
+title: "Katerina Bischel"
+---
+
+
+
+<style>
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-section img {
+    margin-right: 20px;
+    border-radius: 10px; /* Optional: rounds the corners of the image */
+}
+
+.bio p {
+    margin: 0;
+}
+</style>
+
+# My Profile
+
+Hello everyone, I a graduating Environmental Studies B.A. major at UCSB. I am working on a masters degree at Bren School of Environmental Science and Management Fall 2024 - Spring 2026. This website showcases my senior thesis: Remediating Ocean Acidification: Using Calcium Carbonate from Discarded Bivalves to Enhance Ocean Alkalinity
+
+---
+title: "Katerina Bischel" # if using a built-in template, this title appears under your photo
+image: images/profile.png # great spot for your professional headshot :) 
+toc: false # disable table of contents for this page
+about: 
+  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+  image-shape: round
+  image-width: 20em
+  links: # create buttons; need to supply a `text` and/or `icon`, as well as `href` (the URL or file path that your button redirects to)
+    - icon: linkedin # optionally include a FontAwesome icon
+      text: LinkedIn
+      href: https://www.linkedin.com/in/katerina-bischel/
+    - icon: github
+      text: GitHub
+      href: https://github.com/katerinabischel
+    - icon: envelope
+      text: Email
+      href: mailto:katerinabischel@ucsb.edu
+---
+        
+       
